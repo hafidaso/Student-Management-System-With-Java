@@ -3,7 +3,7 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+
 import model.Course;
 import controller.CourseController;
 import java.util.List;

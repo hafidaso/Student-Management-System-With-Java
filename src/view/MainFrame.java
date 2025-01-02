@@ -3,7 +3,6 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
-import controller.*;
 
 public class MainFrame extends JFrame {
 
@@ -22,9 +21,18 @@ public class MainFrame extends JFrame {
     private JMenuItem performanceReportItem;
 
     public MainFrame() {
+
+        // Set the FlatLaf look and feel
+        try {
+            UIManager.setLookAndFeel(new FlatLightLaf());
+        } catch (UnsupportedLookAndFeelException ex) {
+            ex.printStackTrace();
+        }
+
         setTitle("Student Management System");
         setSize(1000, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
         // Initialize the GUI components
         initMenuBar();

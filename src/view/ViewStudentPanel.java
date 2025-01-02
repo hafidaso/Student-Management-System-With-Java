@@ -1,13 +1,15 @@
 // File: view/ViewStudentPanel.java
 package view;
 
-import javax.swing.*;
-import javax.swing.table.*;
-import java.awt.*;
-import java.awt.event.*;
-import model.Student;
 import controller.StudentController;
-import java.util.List;
+import model.Student;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
+import java.awt.*;
+import java.util.List
+
+import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
 
 public class ViewStudentPanel extends JPanel {
     private JTable table; // Move table to class level
@@ -18,6 +20,9 @@ public class ViewStudentPanel extends JPanel {
     public ViewStudentPanel() {
         setLayout(new BorderLayout());
         setBorder(BorderFactory.createTitledBorder("Student Details"));
+
+        // Apply auto-complete to searchField
+        AutoCompleteDecorator.decorate(searchField, students, false);
 
         // Top panel for search bar
         JPanel topPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));

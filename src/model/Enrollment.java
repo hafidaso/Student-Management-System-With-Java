@@ -3,7 +3,7 @@ package model;
 
 public class Enrollment {
     private Student student;
-    private Course course;
+    private model.Course course;
     private String grade; // Grade can be null if not assigned yet
 
     // Default constructor
@@ -11,7 +11,7 @@ public class Enrollment {
     }
 
     // Parameterized constructor
-    public Enrollment(Student student, Course course) {
+    public Enrollment(Student student, model.Course course) {
         this.student = student;
         this.course = course;
         this.grade = null; // Grade not assigned yet
@@ -26,11 +26,11 @@ public class Enrollment {
         this.student = student;
     }
 
-    public Course getCourse() {
+    public model.Course getCourse() {
         return course;
     }
 
-    public void setCourse(Course course) {
+    public void setCourse(model.Course course) {
         this.course = course;
     }
 

@@ -1,14 +1,13 @@
 // File: view/AddStudentPanel.java
 package view;
 
+import controller.StudentController;
+import model.Student;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import model.Student;
-import controller.StudentController;
-import javax.swing.ImageIcon;
-
 
 
 public class AddStudentPanel extends JPanel {
@@ -21,6 +20,7 @@ public class AddStudentPanel extends JPanel {
     public AddStudentPanel() {
         setLayout(new GridBagLayout());
         setBorder(BorderFactory.createTitledBorder("Add New Student"));
+
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(5, 5, 5, 5);
