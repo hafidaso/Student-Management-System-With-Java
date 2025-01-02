@@ -1,8 +1,32 @@
-**The Student Management System** is a desktop application developed in Java using the Swing framework. It provides a user-friendly interface for administrators to manage student records, course enrollments, and grades. The application allows administrators to:
+# Student Management System
 
-- Add, update, and delete student information.
-- Enroll students in courses and remove enrollments.
-- Assign grades to students for their enrolled courses.
-- View detailed information about students, courses, enrollments, and generate performance reports.
-- Search for students and courses quickly.
-- View enrollments per student and generate summary reports.
+A Java-based GUI application for managing student records, course enrollments, and grades. Built using Swing.
+
+## Features
+
+- **Student Management**
+    - Add new students
+    - Update student information
+    - View student details
+    - Delete students
+- **Course Enrollment**
+    - Enroll students in courses
+    - Remove students from courses
+    - View course enrollments
+- **Grade Management**
+    - Assign grades to students
+    - View student grades
+- **Reports**
+    - Generate student performance reports
+
+## Requirements
+
+- Java 8 or higher
+- [FlatLaf](https://www.formdev.com/flatlaf/) (if using for Look and Feel)
+
+## How to Run
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/hafidaso/Student-Management-System-With-Java/
