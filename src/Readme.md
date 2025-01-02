@@ -29,4 +29,4 @@ A Java-based GUI application for managing student records, course enrollments, a
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/hafidaso/student-management-system.git
+   git clone https://github.com/hafidaso/Student-Management-System-With-Java/
