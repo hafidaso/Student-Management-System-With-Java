@@ -1,4 +1,4 @@
-## The Student Management System is a desktop application developed in Java using the Swing framework. It provides a user-friendly interface for administrators to manage student records, course enrollments, and grades. The application allows administrators to:
+**The Student Management System** is a desktop application developed in Java using the Swing framework. It provides a user-friendly interface for administrators to manage student records, course enrollments, and grades. The application allows administrators to:
 
 - Add, update, and delete student information.
 - Enroll students in courses and remove enrollments.
